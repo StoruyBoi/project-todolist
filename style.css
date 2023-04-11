@@ -1,0 +1,678 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+padding: 0;
+margin: 0;
+text-decoration: none;
+list-style: none;
+font-family: 'Poppins', sans-serif;
+scroll-behavior: smooth;
+background: #1D1D26;
+}
+/* ----------------------------------- nav barr styling----------------------------------------------------------- */
+nav{
+
+display: flex;
+justify-content: space-around;
+align-items: center;
+height: 100px;
+}
+.logo-button{
+   
+display: flex;
+gap: 30px;
+
+}
+.logo-button a{
+   
+    color: white;
+
+}
+.logo-button button{
+   
+    color: white;
+
+}
+
+.logo-section{
+    align-items: center;
+    display: flex;
+    gap: 30px;
+}
+.logo{
+
+display: flex;
+align-items: center;
+
+}
+.logo h1{
+
+ font-weight: 800;
+ color: white;
+    }
+.logo img{
+
+width: 50px;
+
+}
+.logo-button{
+    display: flex;
+    align-items: center;
+}
+.logo-button button {
+    padding: 5px 20px;
+    border-radius: 6px;
+    background: none;
+    border: 2px solid #ffffff29;
+    font-weight: 600;
+}
+
+.logo-section a{
+    color: white;
+}
+
+
+
+
+/* ---------------------------------------------------- mid section styling----------------------------------------------------------------- */
+
+.mid-sec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     padding: 14vh 0 0 0; 
+    padding: auto;
+    gap: 40px;
+}
+.mid-sec h1{
+    font-size: 4rem;
+    color: white;
+}
+.mid-sec p{
+    color: #ffffff85;
+}
+
+.mid-btn{
+
+display: flex;
+gap: 10px;
+}
+.mid-btn button {
+    color: white;
+    padding: 13px 39px;
+    border-radius: 6px;
+    background: none;
+    font-weight: 600;
+}
+#mid_btn_1 {
+    background: #EF64B2;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0px 5px 2px 1px #ef64b2bd;
+}
+#mid_btn_2{
+    cursor: pointer;
+background: #30303D;
+    border: none;
+    box-shadow: 0px 5px 2px 1px #30303d9e;
+}
+    
+
+.mid-sec-vector{
+
+overflow: hidden;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+
+/* .mid-sec-cont1
+{
+    background: url(Content/w1.png);
+    width: 200px;
+    height: 400px;
+}
+.mid-sec-cont2
+{
+    background: url(Content/w2.png);
+    width: 200px;
+    height: 400px;
+} */
+
+#img1{
+
+    
+        top: 165px;
+        background: none;
+        width: 20%;
+        object-fit: contain;
+        left: 162px;
+        position: relative;
+        transition: all 1.5s ease;
+    
+}
+
+#img1:hover{
+
+
+        transition: all 0.5s ease;
+        
+    transform: translate(10px, 0px);
+    
+}
+
+#img2{
+    width: 50%;
+    object-fit: contain;
+    background: none;
+    transition: all 1.5s ease;
+    
+}
+#img2:hover{
+
+
+    transition: all 0.5s ease;
+        
+    transform: translate(10px, 0px);
+}
+#about-img1
+{
+    width: 100%;
+}
+
+
+
+/* ---------------------------------- productivity page styling ------------------------------- */
+
+.productivity{
+    padding: 100px;
+}
+.for-green{
+    color:#7EE787;
+}
+.productivity h3{
+  color: white  ;
+}
+.productivity h1{
+  color:white;
+  font-size: 3rem;
+  margin-bottom: 30px
+}
+
+
+.porductivity-img {
+    height: 463px;
+    background: url(Content/int1.gif);
+    object-fit: center;
+    background-position: initial;
+    background-repeat: no-repeat;
+    background-size: contain00000000000000000;
+  
+}
+/* .porductivity-img img{
+
+    box-shadow: 10px 10px lightblue;
+   
+} */
+
+
+
+
+
+/* ---------------------------------- collaboration page styling ------------------------------- */
+
+.collaboration{
+    padding: 100px;
+}
+.for-creem{
+    color:#FFA28B;
+}
+.collaboration h3{
+  color: white  ;
+}
+.collaboration h1{
+  color:white;
+  font-size: 3rem;
+  margin-bottom: 30px
+}
+
+
+.collaboration-img{
+
+    height: 463px;
+    background: url(Content/int2.gif);
+    object-fit: center;
+    background-position: initial;
+    background-repeat: no-repeat;
+}
+/* .collaboration-img img {
+    box-shadow: 10px 10px lightblue;
+    width: 1000px;
+    border-radius: 10px;
+} */
+
+
+
+/* ---------------------------------- security page styling ------------------------------- */
+
+.security{
+    padding: 100px;
+}
+.for-purple{
+    color:#939AFF;
+}
+.security h3{
+  color: white  ;
+}
+.security h1{
+  color:white;
+  font-size: 3rem;
+  margin-bottom: 30px
+}
+
+
+.security-img{
+    height: 463px;
+    background: url(Content/int3.gif);
+    object-fit: center;
+    background-position: initial;
+    background-repeat: no-repeat;
+}
+/* .security-img img{
+
+    box-shadow: 10px 10px lightblue;
+    border-radius: 10px;
+}
+ */
+
+
+
+
+
+
+
+
+
+
+
+/* 
+------------------------------- lower mid style container ------------------------------- */
+.lower-mid-con1 {
+    gap: 36px;
+    flex-direction: column;
+    color: white;
+    padding: 100px;
+    display: flex;
+}
+.lower-mid-con1 h1{
+font-size: 5rem;
+margin-bottom: 30px
+
+}
+
+.lower-mid-con1 p{
+    font-size: 1.8rem;
+    color: #faebd75c;
+}
+
+
+
+
+.vl {
+    border-left: 1px solid #ffffff30;
+  }
+  .lower-mid-input{
+    display: flex;;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .lower-mid-input1{
+display: flex;
+
+  }
+#email1{
+    background: white;
+    padding: 11px 118px 11px 20px;
+    font-size: 1.rem;
+    border-radius: 9px 0 0 46ox;
+    border: none;
+    color: gray;
+    border-radius: 10px 0px 0px 10px
+}
+#submit1{
+    border: none;
+    background: #EF64B2;
+    padding: 11px 90px 11px 40px;
+    border-radius: 0px 10px 10px 0px;
+    font-weight: 800;
+    color: white;
+    font-size: 1rem;
+}
+
+#startbtn{
+    background: none;
+    color: white;
+    padding: 8px 32px;
+    border: 1px solid#EF64B2;
+    border-radius: 8px;
+}
+.lower-mid-con2{
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+}
+.lower-mid-con2 p {
+    font-size: 1.2rem;
+    color: #ffffff59;
+}
+.lower-mid-con2-box1 {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------------------------------- footer links styling -------------------------- */
+
+.footer-links{
+
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 43px;
+padding:40px ;
+}
+.footer-links a{
+
+    color: rgba(255, 255, 255, 0.469)
+}
+
+.footer-links-cn1{
+
+
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer-links-cn1 h1{
+font-size: 2rem;
+font-weight: 900;
+color: white;
+
+
+  
+}
+.footer-links-cn1-box1 p {
+    color: rgba(255, 255, 255, 0.419);
+    font-size: 0.8rem;
+}
+
+.footer-links-cn2 {
+    align-items: baseline;
+    display: flex;
+    gap: 35px;
+    flex-wrap: wrap;
+}
+.footer-links-btn button {
+    border: 1px solid #ffffff7d;
+    border-radius: 12px;
+    color: white;
+    font-weight: 600;
+    padding: 13px 38px;
+    font-size: 0.9rem;
+    background: none;
+}
+
+.links-cont1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.links-cont2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.links-cont3{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.links-cont4{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+/* -------------------------------- footer section styling --------------------- */
+
+footer{
+    
+        color: #ffffffa6;
+        font-size: 0.8rem;
+    
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+padding: 20px 20px;
+background: #161B22;
+color: white;
+flex-wrap: wrap;
+gap: 11px;
+}
+.footer-cont1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: none;
+    
+}
+.footer-cont1 a{
+    color: #ffffffa6;
+display: flex;
+align-items: center;
+gap: 20px;
+background: none;
+
+}
+.footer-cont1 p{
+    background: none;   
+
+}
+.footer-cont2 {
+ display: flex;
+ align-items: center;
+ background: none;
+ gap: 20px;
+}
+.footer-cont2 img{
+ 
+    width: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .part1{
+    display: flex;
+}
+.par2{
+    display: flex;
+}
+.part2_2 {
+    width: 3px;
+  
+    transition-delay: 500ms;
+    height: 100px;
+    background: aquamarine;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -----------------------------------responsive ness area start ----------------------------- */
+
+/* -----------------------desktop resposive ness------------------------- */
+
+@media (max-width:768px){
+
+    #img1{
+
+        width: 38%;
+    }
+    #img2{
+
+        width: 95%;
+    }
+#email1{
+    padding: 11px 0px 11px 20px;
+}
+}
+@media (max-width:572px){
+.mid-sec-vector{
+    display: none;
+}
+
+.productivity,.collaboration,.security,.lower-mid-con1 {
+  
+    padding: 130px 30px 8px;
+}
+#email1{
+
+    padding: 10px;
+}
+#submit1{
+
+    padding: 9px;
+}
+
+
+#top-feature{
+    display: none;
+}
+.mid-sec h1 {
+    font-size: 3rem;
+    color: white;
+}
+
+}
+
+@media (max-width:370px){
+    #email1{
+
+    }
+    #submit1{
+        font-size: 0.8rem;
+    }
+}
+
+
+@media (max-width:308px){
+    #email1{
+        font-size: 10px;
+    }
+    #submit1{
+        font-size: 6px;
+    }
+}
+@media (max-width:246px){
+    #email1{
+       
+    }
+    #submit1{
+        
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------ mobile responsive ness ------------------------ */
+
+

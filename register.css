@@ -1,0 +1,152 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+padding: 0;
+margin: 0;
+text-decoration: none;
+list-style: none;
+font-family: 'Poppins', sans-serif;
+scroll-behavior: smooth;
+
+color: black    ;
+}
+.container_1{
+    background: url(/Content/login.jpg);
+    width: 46%;
+background-position: center;
+background-size: cover;
+}
+.register{
+background: #D8DEE7;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.container_2{
+    padding: 76px 44px;
+}
+.main_contener{
+    gap: 25px;
+    margin: 20px;
+    display: flex;
+    width: 895px;
+    background-color: #fff;
+    padding: 14px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+form{
+    flex-direction: column;
+    display: flex;
+    gap: 25px;
+}
+
+.box1{
+    display: flex;
+flex-direction: column;
+gap: 10px;
+}
+.box1 h1{
+    font-size: 1.5rem;
+}
+.box1 p{
+    font-size: 0.6rem;
+}
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 15px 0 15px 5px;
+    margin: 0px 0 11px 0;
+    display: inline-block;
+    border: none;
+    border-radius: 4px;
+    background-color: #f2f2f2;
+}
+input[type="text"]:focus, input[type="password"]:focus {
+    background-color: #e6e6e6;
+    outline: none;
+}
+label{
+    font-size: 0.8rem;
+
+}
+.link {
+    display: flex;
+    justify-content: center;
+    margin: 0 20px;
+}
+.link  a{
+
+    font-size: 0.8rem;
+}
+.btn_box{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 40px;
+}
+.link_box{
+    display: flex;
+    flex-direction: column;
+    gap: 51px;
+}
+#signin{
+    background: #222222;
+    color: white;
+    border: none;
+    padding:7px 0   ;
+}
+#ggole{
+    background: #F8F8F8;
+display: flex;
+justify-content: center;
+gap: 4px;
+align-items: center;
+    border: none;
+    padding:7px 0   ;
+}
+#ggole img{
+width: 20px;
+}
+
+.container_1__1{
+    background: url(/Content/signup.jpg);
+
+    width: 46%;
+background-position: center;
+background-size: cover;
+}
+
+/* -------------------------------------------------- responsive ness --------------------- */
+
+
+@media (max-width:425px){
+/* .container_1{
+    display: none;
+} */
+.register{
+    background: none;
+    height: 90vh;
+ 
+}
+.main_contener{
+    box-shadow: none;
+    margin: 10px;
+}
+.container_2
+{
+    padding: 0;
+}
+.box1 h1 {
+    font-size: 1.9rem;
+}
+.box1 p {
+    font-size: 0.7rem;
+}
+
+
+
+}

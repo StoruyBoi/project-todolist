@@ -1,0 +1,218 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+padding: 0;
+margin: 0;
+text-decoration: none;
+list-style: none;
+font-family: 'Poppins', sans-serif;
+scroll-behavior: smooth;
+
+
+}
+.main-container{
+
+    display: flex;
+}
+.container-1 {
+    padding: 20px;
+    border-radius: 13px;
+    margin: 30px;
+    background: #F4F4F4;
+    gap: 20px;
+    flex-direction: column;
+    display: flex;
+    height: 720px;
+}
+.container-2 {
+    padding: 20px;
+    border-radius: 13px;
+    /* margin: 30px;
+    background: #F4F4F4; */
+    width: 384vh;
+    gap: 120px;
+    flex-direction: column;
+    display: flex;
+
+}
+.container-2 h1{
+    
+        font-weight: bold;
+        font-size: 2.6rem;
+    
+}
+
+.main-input {
+    justify-content: center;
+    display: flex;
+}
+.main-input input {
+    border-radius: 20px;
+    padding: 10px 0 10px 10px;
+    width: 70%;
+    /* border: gray; */
+    border: 2px solid #80808054;
+}
+.input-area{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.logo-sec img {
+    /* width: 50%; */
+    /* background: none; */
+    width: 57px;
+    object-fit: cover;
+}
+.logo-sec {
+    justify-content: space-between;
+    display: flex;
+    gap: 48px;
+}
+.logo-heading h2{
+    font-weight: 100;
+    font-size: 1rem;
+}
+.logo-heading p {
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: #AB9CFB;
+   
+}
+hr{
+border: 1px solid #B8A0FE;
+}
+.task-section{
+    gap: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.task-section p{
+    font-weight: 600;
+}
+.task-section img{
+    object-fit: cover;
+    width: 15%;
+}
+.task-section-con1{
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+.task-section-con1 button {
+    padding: 8px 4px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.task-section-con1 button:hover {
+background: #AB9CFB;
+color: white;
+}
+.perbox1{
+    gap: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.perbox1 img{
+    object-fit: cover;
+    width: 15%;
+}
+.perbox1 p{
+    padding: 0 5px 0 0;
+}
+.contianer-2-box1{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.input-area {
+    padding: 10px 0;
+    /* border: 2px solid grey; */
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    border-radius: 15px;
+    width: 61%;
+    background: antiquewhite;
+}   
+.input-section {
+    justify-content: center;
+    display: flex;
+}
+.box1 {
+    gap: 15px;
+    align-items: center;
+    display: flex;
+}
+.round {
+    background: blueviolet;
+    width: 6px;
+    height: 6px;
+    border-radius: 100px;
+}
+.box11{
+    background: blueviolet;
+    width: 6px;
+    height: 6px;
+    border-radius: 100px;
+
+
+}
+.box1{
+    gap: 9px;
+    align-items: center;
+    display: flex;
+}
+.schedule-section{
+    gap: 48px;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: space-between;
+}
+    
+.schedule-section img{
+    
+        object-fit: cover;
+        width: 15%;
+    
+}
+.setting-seciton {
+    cursor: pointer;
+    gap: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.setting-seciton    img{
+    object-fit: cover;
+    width: 15%;
+}
+.logout{
+   
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    margin-top: 270px;
+ 
+}
+.logout    img{
+    object-fit: cover;
+    width: 10%;
+}
+
+/* ----------------------------------------------------styling for responsive nesss -------------------------------------------- */
+
+@media (max-width:768px){
+    .input-area{
+        width: 90%;
+    }
+
+    .container-1{
+        display: none;
+    }
+}
